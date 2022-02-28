@@ -1,1 +1,46 @@
-index.html
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap">
+		<title>Basic simple calculator</title>
+	</head>
+	<body>
+        <h2 id="title">Calculator Application</h2>
+		<div id="container">
+			<div id="calculator">
+				<div id="answer">
+					<div id="history">
+						<p id="history-value"></p>
+					</div>
+					<div id="final">
+						<p id="output-value"></p>
+					</div>
+				</div>
+				<div id="keyboard">
+					<button class="operator" id="clear">C</button>
+					<button class="operator" id="backspace">Del</button>
+					<button class="operator" id="%">%</button>
+					<button class="operator" id="/">&#247;</button>
+					<button class="numbers" id="7">7</button>
+					<button class="numbers" id="8">8</button>
+					<button class="numbers" id="9">9</button>
+					<button class="operator" id="*">&times;</button>
+					<button class="numbers" id="4">4</button>
+					<button class="numbers" id="5">5</button>
+					<button class="numbers" id="6">6</button>
+					<button class="operator" id="-">-</button>
+					<button class="numbers" id="1">1</button>
+					<button class="numbers" id="2">2</button>
+					<button class="numbers" id="3">3</button>
+					<button class="operator" id="+">+</button>
+					<button class="empty_space" id="empty"></button>
+					<button class="numbers" id="0">0</button>
+					<button class="empty_space" id="empty"></button>
+					<button class="operator" id="=">=</button>
+				</div>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
